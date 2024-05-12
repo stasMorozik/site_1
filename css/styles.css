@@ -1,0 +1,62 @@
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("./../fonts/Raleway/static/Raleway-Regular.ttf");
+}
+
+*{
+  font-family: "Roboto";
+  color: black;
+  font-size: .96rem;
+}
+
+#nav a {
+  font-size: 1.2rem;
+}
+
+#nav a:hover {
+  color: #fc0;
+}
+
+button {
+  background-color: #fc0;
+}
+
+#main-image {
+  background: url("./../images/2.jpeg") no-repeat center /cover, #000000ab;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-blend-mode: hard-light;
+}
+
+#hr-image {
+  background: url("./../images/hr.jpg") no-repeat center /cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 7px;
+  background-blend-mode: hard-light;
+}
+
+#services a:hover .d-flex {
+  background-color: #041855;
+  color: white;
+}
+
+#services a:hover .d-flex div {
+  color: white !important;
+}
+
+#services a:hover .d-flex .fa-solid {
+  color: white !important;
+}
+
+.table thead tr th {
+  background-color: #041855;
+  color: white;
+}
