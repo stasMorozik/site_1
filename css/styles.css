@@ -23,8 +23,16 @@
   color: #fc0;
 }
 
-button {
-  background-color: #fc0;
+.btn:hover {
+  color: #041855 !important;
+}
+
+h2 a {
+  font-size: 2rem;
+}
+
+h5 a {
+  font-size: 1.25rem;
 }
 
 #main-image {
