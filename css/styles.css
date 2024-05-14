@@ -66,16 +66,16 @@ h5 a {
   background-blend-mode: hard-light;
 }
 
-#services a:hover .d-flex {
+#services a:hover .p-4 {
   background-color: #041855;
   color: white;
 }
 
-#services a:hover .d-flex div {
+#services a:hover .p-4 div {
   color: white !important;
 }
 
-#services a:hover .d-flex .fa-solid {
+#services a:hover .p-4 .fa-solid {
   color: white !important;
 }
 
