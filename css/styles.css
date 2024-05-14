@@ -58,7 +58,7 @@ h5 a {
   background-blend-mode: hard-light;
 }
 
-#hr-image {
+.hr-image {
   background: url("./../images/hr.jpg") no-repeat center /cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -82,4 +82,9 @@ h5 a {
 .table thead tr th {
   background-color: #041855;
   color: white;
+}
+
+#mobile-nav {
+  transition: opacity .5s ease-out;
+  transition: width .3s ease-out;
 }
